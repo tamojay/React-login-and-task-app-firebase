@@ -1,0 +1,41 @@
+.dashboard {
+   width: 100%;
+   min-height: 100vh;
+   background: radial-gradient(
+     ellipse at left bottom,
+     rgb(16, 37, 17) 0%,
+     rgba(39, 100, 31, 0.9) 59%,
+     rgba(53, 148, 53, 0.9) 100%
+   );
+ }
+ 
+ .dashboard nav {
+   background: rgb(16, 37, 8, 0.8);
+   width: 100%;
+   padding: 12px 25px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+ 
+ .dashboard nav h2 {
+   color: #fff;
+   font-size: 24px;
+ }
+
+ .dashboard h5 {
+   font-size: 12px;
+   color: rgb(218, 210, 210);
+ }
+ 
+ .dashboard nav button {
+   width: 80px;
+   padding: 8px 2px;
+   background: #fff;
+   color: rgb(16, 37, 10);
+ }
+
+ .dashboard nav button:hover {
+   color: rgb(16, 37, 10);
+   background: #fff;
+ }

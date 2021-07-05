@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Arimo", sans-serif;
+}
+
+.App {
+  background: #e0dada;
+  display: flex;
+  text-align: left;
+}
+
+.app h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.4;
+}
