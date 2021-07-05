@@ -25,6 +25,7 @@ function App() {
    };
 
    const handleLogin = () => {
+      clearErrors();
       fire
          .auth()
          .signInWithEmailAndPassword(email, password)
@@ -43,6 +44,7 @@ function App() {
    };
 
    const handleSignup = () => {
+      clearErrors();
       fire
          .auth()
          .createUserWithEmailAndPassword(email, password)
